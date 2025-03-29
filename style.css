@@ -166,6 +166,7 @@
   left: 350px;
   bottom: -680px;
   object-fit: cover;
+  z-index: 999;
 }
 
 .class-cart-02 img {
@@ -238,6 +239,8 @@
   border-radius: 15px;
   width: 20rem;
   position: relative;
+  z-index: 99;
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .class-cart-03-primary-heading {
@@ -337,12 +340,11 @@
 
 .services-area {
   background-image: url("./assets/services-left.png"),
-    url("./assets/services-left.png"), 
-    url("./assets/services-right.png"),
-    url("./assets/services-left.png"),
-    url("./assets/services-left.png");
+    url("./assets/services-left.png"), url("./assets/services-right.png"),
+    url("./assets/services-left.png"), url("./assets/services-left.png");
   background-repeat: no-repeat;
-  background-position: -10px 70px, -10px 90px, top right, bottom right, right 335px;
+  background-position: -10px 70px, -10px 90px, top right, bottom right,
+    right 335px;
 }
 
 .services > * {
@@ -370,3 +372,231 @@
   padding-top: 10px;
 }
 /* services part end */
+
+/* future cart start  */
+.featured {
+  padding: 6rem 5rem 2rem 5rem;
+  background-image: url("./assets/feature-left.png"),
+    url("./assets/feature-right.png");
+  background-repeat: no-repeat;
+  background-position: 0px 180px, bottom right;
+}
+
+.featured-card {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.featured-heading {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 1);
+}
+
+.featured-pera {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: rgba(189, 189, 189, 1);
+  padding-top: 15px;
+  padding-bottom: 60px;
+}
+
+.featured-cart-title {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 1);
+  padding: 10px;
+}
+
+.featured-cart-pera {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: rgba(135, 135, 135, 1);
+  padding: 5px 0px 25px 10px;
+}
+.feature-cart-container {
+  display: flex;
+  gap: 30px;
+  padding: 0px 0px 0px 35px;
+}
+/* future cart end */
+
+/* quality part start  */
+.quality {
+  display: flex;
+  justify-content: space-between;
+  padding: 8rem 5rem;
+  background-image: url("./assets/quality-center.png"),
+    url("./assets/quality-center-right.png"), url("./assets/quality-left.png");
+  background-repeat: no-repeat;
+  background-position: 580px 60px, 980px 570px, bottom left;
+}
+
+.quality-content {
+  padding-top: 30px;
+}
+.quality-secondary-title {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: rgba(47, 43, 113, 1);
+  line-height: 30px;
+}
+
+.quality-primary-title {
+  font-size: 60px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: rgba(16, 17, 48, 1);
+  line-height: 70px;
+  width: 500px;
+  padding-bottom: 20px;
+}
+
+.quality-pera {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: rgba(103, 104, 123, 1);
+  width: 350px;
+  line-height: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.quality-btn {
+  text-decoration: none;
+  color: rgba(255, 254, 254, 1);
+  background-color: rgba(84, 184, 255, 1);
+  padding: 15px 25px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+/* quality part end  */
+
+/* subscribe part start  */
+.subscribe-area {
+  padding: 5rem 5rem;
+  background-image: url('./assets/subscribe-right.png');
+  background-repeat: no-repeat;
+  background-position: 850px 280px;
+  z-index: 2;
+}
+
+.subscribe {
+  background-color: #ade5e4;
+  display: flex;
+  z-index: 1;
+}
+
+.subscribe-content {
+  padding: 60px 80px;
+}
+
+.subscribe-secondary-title {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: rgba(135, 133, 170, 1);
+  line-height: 25px;
+}
+
+.subscribe-primary-title {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: rgba(27, 27, 27, 1);
+  line-height: 50px;
+  width: 250px;
+  padding-bottom: 30px;
+}
+
+.subscribe-email {
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: rgba(141, 138, 122, 1);
+}
+
+#subscribe-email-right-arrow {
+  position: relative;
+  right: 50px;
+  background-color: rgba(18, 41, 75, 1);
+  padding: 8px;
+  color: #fff;
+}
+
+.subscribe-massage-cart {
+  background-color: rgba(99, 175, 181, 1);
+  width: 280px;
+  height: 340px;
+  margin-top: 40px;
+  margin-left: 80px;
+}
+
+.first-massage {
+  background-color: rgba(112, 105, 130, 1);
+  position: relative;
+  top: 30px;
+  left: 30px;
+  padding: 15px 20px;
+  border-radius: 0px 15px 15px 15px;
+  width: 200px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.second-massage {
+  color: rgba(0, 0, 0, 1);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(255, 255, 255, 1);
+  position: relative;
+  top: 50px;
+  left: 80px;
+  padding: 25px 20px;
+  border-radius: 25px 25px 0px 25px;
+  line-height: 22px;
+  width: 230px;
+}
+
+.subscribe-massage-peple-icon {
+  position: relative;
+  left: 320px;
+  top: 20px;
+}
+
+.subscribe-massage-textbox {
+  position: relative;
+  top: 80px;
+  background-color: transparent;
+  border: 2px solid rgba(104, 118, 135, 1);
+  padding: 15px 25px;
+  border-radius: 50px;
+}
+
+#subscribe-massage-icon {
+  position: relative;
+  left: 210px;
+  top: 38px;
+  font-size: 35px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.subscribe-shape{
+  position: relative;
+  bottom: 230px;
+  left: 410px;
+}
+/* subscribe part end  */
