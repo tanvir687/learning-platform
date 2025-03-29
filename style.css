@@ -600,3 +600,45 @@
   left: 410px;
 }
 /* subscribe part end  */
+
+/* footer part start  */
+.footer{
+  padding: 5rem 5rem;
+  display: flex;
+}
+
+.footer > *{
+  flex: 1;
+}
+
+.footer-pages{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-title{
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Mulish", sans-serif;
+  color: rgba(28, 28, 29, 1);
+  padding-bottom: 30px;
+}
+
+.footer-links{
+  list-style: none;
+  padding-bottom: 15px;
+}
+
+.footer-link{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: rgba(122, 122, 126, 1);
+}
+
+.footer-map{
+  display: flex;
+  justify-content: space-between;
+}
+/* footer part end */
